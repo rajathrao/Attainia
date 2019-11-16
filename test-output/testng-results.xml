@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7181" started-at="2019-11-16T00:07:12 PST" finished-at="2019-11-16T00:07:19 PST">
+    <groups>
+      <group name="sanity">
+        <method signature="TestCases.checkTable()[pri:1, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkTable" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+        <method signature="TestCases.link2Click()[pri:4, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="link2Click" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+        <method signature="TestCases.linkClick()[pri:3, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="linkClick" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+        <method signature="TestCases.linkVisible()[pri:2, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="linkVisible" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+      </group> <!-- sanity -->
+      <group name="colorCode">
+        <method signature="TestCases.checkGreenOnClick()[pri:7, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkGreenOnClick" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+        <method signature="TestCases.checkRedOnClick()[pri:6, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkRedOnClick" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+        <method signature="TestCases.init()[pri:5, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="init" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+      </group> <!-- colorCode -->
+      <group name="schemaValidation">
+        <method signature="TestCases.checkColumns()[pri:9, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkColumns" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+        <method signature="TestCases.checkRows()[pri:8, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkRows" class="com.attainia.UserActivity.TestScripts.TestCases"/>
+      </group> <!-- schemaValidation -->
+    </groups>
+    <test name="Default test" duration-ms="7181" started-at="2019-11-16T00:07:12 PST" finished-at="2019-11-16T00:07:19 PST">
+      <class name="com.attainia.UserActivity.TestScripts.TestCases">
+        <test-method status="PASS" signature="initalizeThis()[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="initalizeThis" is-config="true" duration-ms="4589" started-at="2019-11-16T00:07:12 PST" finished-at="2019-11-16T00:07:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeThis -->
+        <test-method status="PASS" signature="getlogger()[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getlogger" is-config="true" duration-ms="17" started-at="2019-11-16T00:07:16 PST" finished-at="2019-11-16T00:07:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlogger -->
+        <test-method status="PASS" signature="checkTable()[pri:1, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkTable" duration-ms="59" started-at="2019-11-16T00:07:16 PST" finished-at="2019-11-16T00:07:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTable -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="9" started-at="2019-11-16T00:07:16 PST" finished-at="2019-11-16T00:07:16 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTable status=SUCCESS method=TestCases.checkTable()[pri:1, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="linkVisible()[pri:2, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="linkVisible" duration-ms="25" started-at="2019-11-16T00:07:16 PST" finished-at="2019-11-16T00:07:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkVisible -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="0" started-at="2019-11-16T00:07:16 PST" finished-at="2019-11-16T00:07:16 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=linkVisible status=SUCCESS method=TestCases.linkVisible()[pri:2, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="linkClick()[pri:3, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="linkClick" duration-ms="110" started-at="2019-11-16T00:07:16 PST" finished-at="2019-11-16T00:07:17 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkClick -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="1" started-at="2019-11-16T00:07:17 PST" finished-at="2019-11-16T00:07:17 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=linkClick status=SUCCESS method=TestCases.linkClick()[pri:3, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="link2Click()[pri:4, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="link2Click" duration-ms="113" started-at="2019-11-16T00:07:17 PST" finished-at="2019-11-16T00:07:17 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link2Click -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="1" started-at="2019-11-16T00:07:17 PST" finished-at="2019-11-16T00:07:17 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=link2Click status=SUCCESS method=TestCases.link2Click()[pri:4, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="init()[pri:5, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="init" duration-ms="27" started-at="2019-11-16T00:07:17 PST" finished-at="2019-11-16T00:07:17 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="1" started-at="2019-11-16T00:07:17 PST" finished-at="2019-11-16T00:07:17 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=init status=SUCCESS method=TestCases.init()[pri:5, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="checkRedOnClick()[pri:6, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkRedOnClick" duration-ms="388" started-at="2019-11-16T00:07:17 PST" finished-at="2019-11-16T00:07:17 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRedOnClick -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="0" started-at="2019-11-16T00:07:17 PST" finished-at="2019-11-16T00:07:17 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRedOnClick status=SUCCESS method=TestCases.checkRedOnClick()[pri:6, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="checkGreenOnClick()[pri:7, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkGreenOnClick" duration-ms="464" started-at="2019-11-16T00:07:17 PST" finished-at="2019-11-16T00:07:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGreenOnClick -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="0" started-at="2019-11-16T00:07:18 PST" finished-at="2019-11-16T00:07:18 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkGreenOnClick status=SUCCESS method=TestCases.checkGreenOnClick()[pri:7, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="checkRows()[pri:8, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkRows" duration-ms="32" started-at="2019-11-16T00:07:18 PST" finished-at="2019-11-16T00:07:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRows -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="0" started-at="2019-11-16T00:07:18 PST" finished-at="2019-11-16T00:07:18 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRows status=SUCCESS method=TestCases.checkRows()[pri:8, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="checkColumns()[pri:9, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="checkColumns" duration-ms="31" started-at="2019-11-16T00:07:18 PST" finished-at="2019-11-16T00:07:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkColumns -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="getResult" is-config="true" duration-ms="1" started-at="2019-11-16T00:07:18 PST" finished-at="2019-11-16T00:07:18 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkColumns status=SUCCESS method=TestCases.checkColumns()[pri:9, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="closeThis()[pri:0, instance:com.attainia.UserActivity.TestScripts.TestCases@1442d7b5]" name="closeThis" is-config="true" duration-ms="1284" started-at="2019-11-16T00:07:18 PST" finished-at="2019-11-16T00:07:19 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeThis -->
+      </class> <!-- com.attainia.UserActivity.TestScripts.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
