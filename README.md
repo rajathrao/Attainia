@@ -60,7 +60,7 @@ Follow this video link for a step by step instruction - [Java and Eclipse instal
 | 3 |Verify that when logincount is 0 the rows turn red on PG1 | When the user clicks 'Highlight Rows' Button on Page 1 all rows where the login count is 0 turns Red. When the 'Highlight Rows' button is clicked againthe background of the table becomes white again.
 | 4 |Verify that when logincount is greater than or equal to 1 the rows turn green on PG 2 | When the user clicks 'Highlight Rows' Button on Page 2 all rows where the login count is greater than or equal to 1 turns Green.When the 'Highlight Rows' button is clicked againthe background of the table becomes white again.
 | 5 |Schema Validation | Verify the number of columns and number of rows on Pg1 and Pg2
-
+| 6 |Color of Link changes on click | Verify that the link color changes to Red from Blue on click on both the pages
 The test cases are detailed in the code FYI.
 
 ## Design Approach
