@@ -83,7 +83,7 @@ public class TestCases extends TestBase{
 	 //----------------------TEST CASE 5------------------------------------------
 	//Check if background of the table is white when logged in 
 @Test(groups= {"colorCode"},priority=5)
-	 public void init() throws Exception{
+	 public void init() throws InterruptedException{
 		 ActivityPage1 pg1  = PageFactory.initElements(driver, ActivityPage1.class);
 		
 		//pg1.table.getCssValue("color");
@@ -92,7 +92,7 @@ public class TestCases extends TestBase{
 		
 		String s2=Color.fromString(s1).asHex();
 		String white = "#FFFFFF"; //white hex value
-		 
+		 InterruptedException
 		assertEquals(s2,white);
 		logger.info("testcase 5 passed");
 	 }
@@ -100,7 +100,7 @@ public class TestCases extends TestBase{
 	 //----------------------TEST CASE 6-------------------------------------------
 	 // Row  check . Count the the number of Rows inline with the JSON. Used web table to validate
 @Test(groups= {"schemaValidation"},priority=8)
-	 public void checkRows() {
+	 public void checkRows() throws InterruptedException {
 		 ActivityPage1 pg1  = PageFactory.initElements(driver, ActivityPage1.class);
 		Thread.sleep(3000);
 		
@@ -115,7 +115,7 @@ public class TestCases extends TestBase{
 	 //----------------------TEST CASE 7-------------------------------------------
 	 // Count number of columns 
 @Test(groups= {"schemaValidation"},priority=9)	 
-	 public void checkColumns() {
+	 public void checkColumns() throws InterruptedException {
 		 ActivityPage1 pg1  = PageFactory.initElements(driver, ActivityPage1.class);
 			
 			
@@ -135,7 +135,7 @@ public class TestCases extends TestBase{
  * if LoginCount is 0 then the row should be highlighted in Red
  */
 @Test(groups= {"colorCode"},priority=6)
-	 public void checkRedOnClick() {
+	 public void checkRedOnClick() throws InterruptedException {
 		 ActivityPage1 pg1  = PageFactory.initElements(driver, ActivityPage1.class);
 		Thread.sleep(3000);
 		 pg1.button.click();
@@ -175,7 +175,7 @@ public class TestCases extends TestBase{
  * if LoginCount value is greater than or equal to 1 then the row should be highlighted in Green
  */
 @Test(groups= {"colorCode"},priority=7)
-	 public void checkGreenOnClick() {
+	 public void checkGreenOnClick() throws InterruptedException {
 		 ActivityPage1 pg2  = PageFactory.initElements(driver, ActivityPage1.class);
 		Thread.Sleep(3000);
 		 pg2.pg2HyperLink.click(); 
