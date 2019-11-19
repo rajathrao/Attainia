@@ -69,14 +69,14 @@ public class TestBase {
 	Properties prop = new Properties();
 	
 	//Reading from property file
-	FileInputStream fis = new FileInputStream("C:\\Users\\rajat\\eclipse-workspace\\UserActivity\\src\\main\\java\\Resources\\config.properties");
+	FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\main\\java\\Resources\\config.properties");
 	prop.load(fis);
 	String browserName=prop.getProperty("webBrowser");
 	String urlName=prop.getProperty("URL");
 	int waitTime = Integer.parseInt(prop.getProperty("implicitWaitTime"));
 	if(browserName.contains("firefox")){
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\rajat\\eclipse-workspace\\UserActivity\\driver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\driver\\geckodriver.exe");
 		    driver = new FirefoxDriver();
 //
         // driver.manage().timeouts().implicitlyWait(waitTime, TimeUnit.SECONDS);
@@ -87,7 +87,7 @@ public class TestBase {
 	}
 	
 	else if (browserName.contains("chrome")) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajat\\eclipse-workspace\\UserActivity\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\driver\\chromedriver.exe");
 	    driver = new ChromeDriver();
 //
     // driver.manage().timeouts().implicitlyWait(waitTime, TimeUnit.SECONDS);
